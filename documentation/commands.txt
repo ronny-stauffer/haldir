@@ -1,0 +1,10 @@
+Initialize test configuration Git repository
+--------------------------------------------
+
+> cd resources\test
+> mkdir test-configuration
+> cd test-configuration
+> git init
+> echo "foo.bar: Hello world!" > application.properties
+> git add -A .
+> git commit -m "Add application.properties"
